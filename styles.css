@@ -51,7 +51,6 @@ body {
 html,
 body {
   margin: 0;
-  padding: 0;
   border: 0;
 }
 
@@ -114,12 +113,13 @@ body {
   background-color: var(--light-gray);
   display: grid;
   place-items: center;
+  padding: 0 2rem;
 }
 
 .container {
-  max-width: 19.4375rem;
+  max-width: 28.125rem;
   box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
-  margin: 4.5rem 2rem;
+  margin: 2rem auto;
   display: grid;
 }
 
@@ -191,7 +191,7 @@ body {
 span {
   font-weight: 400;
   font-size: 1rem;
-  line-height: 162%;
+  line-height: 122%;
   letter-spacing: -0.0125em;
   color: var(--color-white);
   mix-blend-mode: normal;
@@ -201,7 +201,7 @@ span {
 .amount-description {
   font-weight: 400;
   font-size: 1rem;
-  line-height: 162%;
+  line-height: 142%;
   letter-spacing: -0.0125em;
   color: var(--color-white);
   margin-top: 0.25rem;
@@ -216,8 +216,9 @@ button {
   background: var(--bright-yellow);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
   border-radius: 0.3125rem;
+  width: 100%;
   border-style: none;
-  padding: 0.875em 6.375em;
+  padding: 0.875em;
   margin-top: 1.625rem;
   cursor: pointer;
 }
@@ -254,7 +255,13 @@ li:first-of-type {
   margin-top: 1.125rem;
 }
 
-@media screen and (min-width: 26.875rem) {
+@media screen and (min-width: 28.125rem) {
+  .container {
+    max-width: 39.6875rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
   .main-heading {
     font-size: 1.5rem;
     line-height: 1.75rem;
@@ -272,15 +279,6 @@ li:first-of-type {
     line-height: 162%;
     letter-spacing: -0.0125em;
     margin-top: 0.6875rem;
-  }
-}
-
-@media screen and (min-width: 46.875rem) {
-  .container {
-    max-width: 39.6875rem;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 0 2rem;
   }
 
   .intro-div {
@@ -302,9 +300,5 @@ li:first-of-type {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0.3125rem;
     padding: 2.5rem;
-  }
-
-  button {
-    padding: 0.875em 5.5625rem;
   }
 }
