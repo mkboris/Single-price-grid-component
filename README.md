@@ -11,8 +11,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
-
 ## Overview
 
 ### The challenge
@@ -47,5 +45,3 @@ Building more projects to improve my skills.
 ## Author
 
 - Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
-- Twitter - [@mk_boris](https://www.twitter.com/mk_boris)
-
