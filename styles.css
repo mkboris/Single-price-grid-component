@@ -255,7 +255,7 @@ li:first-of-type {
   margin-top: 1.125rem;
 }
 
-@media screen and (min-width: 28.125rem) {
+@media screen and (min-width: 560px) {
   .container {
     max-width: 39.6875rem;
     grid-template-columns: 1fr 1fr;
